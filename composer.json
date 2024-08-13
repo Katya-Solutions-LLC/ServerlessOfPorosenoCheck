@@ -28,7 +28,7 @@
         "nasirkhan/module-manager": "^0.4.0",
         "nwidart/laravel-modules": "^9.0",
         "orangehill/iseed": "^3.0",
-        "predis/predis": "^1.1",
+        "predis/predis": "^2.2",
         "razorpay/razorpay": "2.*",
         "spatie/laravel-activitylog": "^4.5",
         "spatie/laravel-backup": "^8.1",
