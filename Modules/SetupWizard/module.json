@@ -1,0 +1,13 @@
+{
+    "name": "SetupWizard",
+    "alias": "setupwizard",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SetupWizard\\Providers\\SetupWizardServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

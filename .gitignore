@@ -1,23 +1,37 @@
-/vendor/
-node_modules/
+node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
 npm-debug.log
 yarn-error.log
+/.idea
+/.vscode
+*.cache
+.DS_Store
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+# Below Comments For Design Style & Scripts
+/public/css/*
+!/public/css/.gitkeep
+/public/js/core/*
+!/public/js/core/.gitkeep
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+/public/js/*.js*
+!/public/js/.gitkeep
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+/public/js/Pitomec-script/*.min.js*
+!/public/js/Pitomec-script/.gitkeep
+!/public/js/setting-init.js
+
+/public/modules/**/*
+!/public/modules/.gitkeep
+/public/mix-manifest.json
+node_modules
+node_modules
+/storage/media-library/**/*

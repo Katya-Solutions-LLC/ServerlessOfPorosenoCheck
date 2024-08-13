@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?q5w54u');
+  src:  url('fonts/icomoon.eot?q5w54u#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q5w54u') format('truetype'),
+    url('fonts/icomoon.woff?q5w54u') format('woff'),
+    url('fonts/icomoon.svg?q5w54u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pet-sitter:before {
+  content: "\e944";
+}
+.icon-icon-day-care:before {
+  content: "\e93e";
+  color: #11104a;
+}
+.icon-order-report:before {
+  content: "\e938";
+}
+.icon-location:before {
+  content: "\e93d";
+}
+.icon-supply:before {
+  content: "\e939";
+}
+.icon-Orders:before {
+  content: "\e93b";
+}
+.icon-Product-Variations:before {
+  content: "\e93c";
+}
+.icon-Product:before {
+  content: "\e910";
+}
+.icon-Location:before {
+  content: "\e93a";
+}
+.icon-html-5-logo-svgrepo-com .path1:before {
+  content: "\e93f";
+  color: rgb(228, 77, 38);
+}
+.icon-html-5-logo-svgrepo-com .path2:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(241, 101, 41);
+}
+.icon-html-5-logo-svgrepo-com .path3:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(235, 235, 235);
+}
+.icon-html-5-logo-svgrepo-com .path4:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-html-5-logo-svgrepo-com .path5:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Show:before {
+  content: "\e931";
+}
+.icon-Globe:before {
+  content: "\e932";
+}
+.icon-Translate:before {
+  content: "\e933";
+}
+.icon-Plus:before {
+  content: "\e934";
+}
+.icon-password:before {
+  content: "\e930";
+}
+.icon-reset-password:before {
+  content: "\e92e";
+}
+.icon-Arrow---Right-2:before {
+  content: "\e92f";
+}
+.icon-dark-:before {
+  content: "\e935";
+}
+.icon-light:before {
+  content: "\e936";
+}
+.icon-Show1:before {
+  content: "\e937";
+}
+.icon-Activity:before {
+  content: "\e91c";
+}
+.icon-Bag:before {
+  content: "\e91d";
+}
+.icon-calendar_3395359:before {
+  content: "\e91e";
+}
+.icon-Calling:before {
+  content: "\e91f";
+}
+.icon-Chart:before {
+  content: "\e920";
+}
+.icon-Close-Square:before {
+  content: "\e921";
+}
+.icon-Discovery:before {
+  content: "\e922";
+}
+.icon-disk:before {
+  content: "\e923";
+}
+.icon-dog-food_87974:before {
+  content: "\e924";
+}
+.icon-Edit:before {
+  content: "\e925";
+}
+.icon-Graph:before {
+  content: "\e926";
+}
+.icon-Message:before {
+  content: "\e927";
+}
+.icon-money:before {
+  content: "\e928";
+}
+.icon-Profile:before {
+  content: "\e929";
+}
+.icon-Shield-Done:before {
+  content: "\e92a";
+}
+.icon-Time-Circle:before {
+  content: "\e92b";
+}
+.icon-delete:before {
+  content: "\e92c";
+}
+.icon-writing_1330233:before {
+  content: "\e92d";
+}
+.icon-pet-center:before {
+  content: "\e91a";
+}
+.icon-pet:before {
+  content: "\e91b";
+}
+.icon-all-booking:before {
+  content: "\e906";
+}
+.icon-Daily-Bookings:before {
+  content: "\e919";
+}
+.icon-page:before {
+  content: "\e901";
+}
+.icon-Employee:before {
+  content: "\e904";
+}
+.icon-Customers:before {
+  content: "\e905";
+}
+.icon-Reviews:before {
+  content: "\e907";
+}
+.icon-Access-Control:before {
+  content: "\e909";
+}
+.icon-Modules:before {
+  content: "\e90a";
+}
+.icon-tex:before {
+  content: "\e90d";
+}
+.icon-bookings:before {
+  content: "\e90f";
+}
+.icon-Search:before {
+  content: "\e911";
+}
+.icon-Employee-Earnings:before {
+  content: "\e912";
+}
+.icon-add:before {
+  content: "\e913";
+}
+.icon-Notification:before {
+  content: "\e914";
+}
+.icon-Employee-Payouts:before {
+  content: "\e915";
+}
+.icon-dashboard:before {
+  content: "\e916";
+}
+.icon-Employee-Services:before {
+  content: "\e917";
+}
+.icon-Filter:before {
+  content: "\e918";
+}
+.icon-Setting:before {
+  content: "\e900";
+}
+.icon-app-banner:before {
+  content: "\e90e";
+}
+.icon-Boarding:before {
+  content: "\e902";
+}
+.icon-Veterinary:before {
+  content: "\e903";
+}
+.icon-Walking:before {
+  content: "\e908";
+}
+.icon-Grooming:before {
+  content: "\e90b";
+}
+.icon-Training:before {
+  content: "\e90c";
+}

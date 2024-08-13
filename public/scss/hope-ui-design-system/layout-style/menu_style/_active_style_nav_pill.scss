@@ -1,0 +1,14 @@
+// navs-pill
+
+.sidebar{
+    &.navs-pill{
+        .sidebar-body{
+            .nav-item {
+                .nav-link{
+                    border-top-right-radius: $border-radius-pill !important;
+                    border-bottom-right-radius: $border-radius-pill !important;
+                }
+            }
+        }
+    }
+}

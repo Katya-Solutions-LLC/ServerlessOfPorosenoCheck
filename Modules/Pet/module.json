@@ -1,0 +1,13 @@
+{
+    "name": "Pet",
+    "alias": "pet",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pet\\Providers\\PetServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

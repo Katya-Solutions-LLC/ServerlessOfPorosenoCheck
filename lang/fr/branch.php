@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'title' => 'Filiale',
+    'lbl_branch_name' => 'Nom de la filiale',
+    'lbl_branch_for' => 'Filiale pour',
+    'lbl_select_manager' => 'Assigner un responsable',
+    'lbl_select_service' => 'Sélectionner un service',
+    'lbl_contact_number' => 'Numéro de contact',
+    'lbl_contact_email' => 'Adresse e-mail',
+    'lbl_shop_number' => 'Numéro du magasin, Nom du bâtiment, Zone',
+    'lbl_landmark' => 'Point de repère, à proximité de',
+    'lbl_postal_code' => 'Code postal',
+    'lbl_country' => 'Pays',
+    'lbl_state' => 'État',
+    'lbl_city' => 'Ville',
+    'lbl_payment_method' => 'Méthode de paiement acceptée',
+    'lbl_feature_image' => 'Image principale',
+    'lbl_description' => 'Description',
+    'lbl_status' => 'Statut',
+    'lbl_name' => 'Nom',
+    'lbl_manager_name' => 'Nom du responsable',
+    'lbl_image' => 'Image',
+    'lbl_assign'=>'Attribuer',
+    'lbl_action'=>'Action',
+    'select_branch' => 'Sélectionnez la succursale',
+];

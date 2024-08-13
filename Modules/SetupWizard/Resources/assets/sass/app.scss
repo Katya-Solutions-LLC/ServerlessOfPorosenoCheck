@@ -1,0 +1,55 @@
+@import "./helper/function";
+
+
+$prefix: 'bs-';
+
+
+$primary-light: var(--bs-primary-tint-20);
+$primary: var(--bs-primary);
+$primary-dark: var(--bs-primary-shade-20);
+$primary-rgb: '112,147,229';
+
+$success: var(--bs-success);
+
+$dark: #171C26;
+$white: #ffffff;
+$black: #000000;
+
+$light-color: #b5b9c4;
+$body-color: #6E7990;
+$body-bg: #e7ecf1;
+
+$border-radius: .5em;
+$border-radius-sm: .25em;
+$border-radius-lg: .75em;
+$border-radius-pill: 50em;
+
+$border-color: #eee;
+
+.setup-wizard  {
+    padding: 2em;
+    background: $body-bg;
+    font-family: custom-var('body-font-family');
+    font-size: 14px;
+    color: custom-var('body-color');
+
+    // Helpers
+    @import "./helper/colors";
+    @import "./helper/utilities";
+    @import "./helper/reboot";
+
+    // Components
+    @import "./components/card";
+    @import "./components/datepicker";
+    @import "./components/layout";
+    @import "./components/tab";
+
+    //responsive
+    @import "./components/responsive";
+
+}
+@media (max-width: 768px) {
+    .setup-wizard{
+        padding: .5em;
+    }
+}

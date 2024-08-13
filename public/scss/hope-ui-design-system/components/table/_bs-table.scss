@@ -1,0 +1,174 @@
+.table {
+    thead {
+        white-space: nowrap;
+        tr {
+            background-color: $body-bg;
+            th {
+                text-transform: capitalize;
+                letter-spacing: $table-th-letter-spacing;
+            }
+        }
+    }
+    tbody {
+        tr {
+            td {
+               vertical-align: middle;
+                .iq-sub-label{
+                    margin-bottom: 0.125rem;
+                }
+            }
+        }
+    }
+    &.table-dark{
+        tbody {
+            tr {
+                td {
+                   color: $body-bg;
+                   vertical-align: middle;
+                }
+            }
+        }
+    }
+    overflow: hidden;
+}
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: transparent;
+}
+
+.table-primary{
+    --bs-table-bg: var(--#{$variable-prefix}primary-tint-80);
+}
+
+.table-responsive{
+    &::-webkit-scrollbar { width: 10px; height: 10px; border-radius: 20px; }
+	/* Scroll Track */
+	&::-webkit-scrollbar-track { background: $body-bg; border-radius: 20px; }
+	/* Scroll Handle */
+	&::-webkit-scrollbar-thumb { background: rgba($dark,0.2); border-radius: 20px; transition: all 400ms ease; cursor: pointer; }
+	/* Scroll Handle on hover */
+	&::-webkit-scrollbar-thumb:hover { background: rgba($dark,0.2); border-radius: 20px;transition: all 400ms ease; cursor: pointer; }
+    .dataTables_wrapper{
+        .row{
+            .dataTables_length{
+                padding-left: $spacer * 1.5;
+            }
+            .dataTables_filter, .dataTables_paginate{
+                padding-right: $spacer * 1.5;
+            }
+            .dataTables_info{
+                padding-left: $spacer * 1.5;
+                padding-top: unset;
+            }
+        }
+    }
+}
+
+.table-dark{
+    td {
+        color: $body-bg !important;
+        vertical-align: middle;
+    }
+}
+
+thead, tbody, tfoot, tr, td, th{
+    white-space: nowrap;
+}
+
+.table-lg {
+    // stylelint-disable-next-line selector-max-universal
+    > :not(caption) > * > * {
+      padding: $table-cell-padding-y-lg $table-cell-padding-x-lg;
+    }
+}
+
+#datatable_wrapper {
+    #datatable {
+        min-height: 20rem;
+        tbody {
+            tr {
+                td {
+                    vertical-align: top;
+                }
+            }
+        }
+        .text-desc {
+            white-space: break-spaces;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            width: 33rem;
+        }
+    }
+}
+
+.product-table {
+    tbody {
+        tr {
+            td {
+                &:nth-child(3) {
+                    white-space: normal;
+                }
+            }
+        }
+    }
+}
+
+
+.product-count {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.order_table {
+    tr {
+        td {
+            white-space: normal;
+        }
+    }
+}
+
+.line-count-1 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.line-count-2 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.notification-table {
+    tbody {
+        tr {
+            td {
+               
+                    white-space: normal;
+               
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .table-responsive{
+        .dataTables_wrapper{
+            .row{
+                .dataTables_length{
+                   margin-bottom: 1em;
+                }
+            }
+        }
+    }
+}

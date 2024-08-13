@@ -1,0 +1,24 @@
+{
+    "name": "Pitomecdesign/tag",
+    "description": "",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Pitomec Design",
+            "email": "hello@Pitomec.design"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tag\\": ""
+        }
+    }
+}

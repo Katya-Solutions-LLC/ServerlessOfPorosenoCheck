@@ -1,0 +1,195 @@
+.dark .iq-header-img{
+    background-color: #313131 !important;
+}
+.dark .table-striped > tbody > tr:nth-of-type(even) > *{
+    --bs-table-accent-bg: #181818 !important;
+}
+.multiselect-option.is-selected {
+	background: #975DEE !important ;
+}
+.multiselect-tag:hover{
+    background: #975DEE !important;
+}
+.multiselect-tag{
+    background: #975DEE !important;
+}
+.multiselect:focus{
+    box-shadow:none !important;
+}
+.multiselect.is-active{
+    box-shadow: none !important;
+}
+.multiselect-option.is-pointed {
+    background: #975DEE !important;
+    color: #fff !important;
+}
+::selection {
+    background: #975DEE !important;
+    color: #fff !important;
+}
+
+::-moz-selection {
+    background: #975DEE !important;
+    color: #fff !important;
+}
+
+*::-moz-selection {
+    background:#975DEE !important;
+    color: #fff !important;
+}
+
+.form-disabled {
+  pointer-events: none;
+  opacity: .4;
+}
+
+.sorting_disabled.sorting_asc::after,
+.sorting_disabled.sorting_asc::before {
+  content: unset !important;
+}
+
+.sorting_disabled.sorting_asc {
+  width: 1% !important;
+}
+.h-4{
+  height: 4rem;
+}
+
+/* vue-tel-input*/
+
+.vue-tel-input{
+    border: 1px solid var(--bs-border-color) !important;
+    box-shadow: none !important;
+}
+.vti__input:focus{
+    border: 1px solid var(--bs-primary) !important;
+
+}
+
+.ec-week .ec-toolbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding: 0 15px 15px;
+  border-bottom: 1px solid var(--bs-border-color);
+}
+.ec-header {
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 75px;
+  position: relative;
+}
+.ec.ec-week {
+  overflow-x: scroll;
+}
+.ec-header .ec-resource {
+  flex-direction: column;
+  min-width: 160px;
+}
+.ec-resource {
+  display: flex;
+  min-width: 160px;
+}
+
+.dropdown-sticky{
+  background-color: var(--bs-white);
+  box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.dropdown-sticky:hover{
+  background-color: var(--bs-primary-shade-10);
+}
+  .text-primary {
+    color : var(--bs-white) !important;
+  }
+
+
+.iq-dropdown  .dropdown-menu{
+  border-radius: 0.6rem !important;
+}
+
+/* select 2 */
+.multiselect-tags{
+  flex-wrap: unset !important;
+  overflow: auto;
+}
+.multiselect-tags .multiselect-tags-search-wrapper{
+    margin: 8px;
+  }
+
+
+.dark .text-black{
+  color:#fff !important;
+}
+@media only screen and (max-width: 1280px) {
+  .ec-header {
+    overflow-x:scroll;
+  }
+}
+
+.iq-branch-dropdown:hover{
+  background-color: unset !important;
+}
+
+.mode-icons {
+  display: none;
+}
+.mode-icons.light-mode {
+  display: block;
+}
+.dark .mode-icons.light-mode {
+  display: none;
+}
+.dark .mode-icons.dark-mode {
+  display: block;
+}
+
+.flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)) {
+  box-shadow: -10px 0 0 rgba(var(--bs-primary-rgb), .8);
+}
+
+
+.breed_list.i.fa-solid.fa-plus.p-0 {
+  color: white;
+}
+
+fieldset,
+legend {
+  all: revert;
+  margin-bottom: 1rem;
+}
+fieldset {
+  border: 1px solid var(--bs-border-color);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 0.7rem;
+  color: var(--bs-primary-shade-80);
+}
+.dark legend {
+  color: white;
+}
+.offcanvas {
+  --ms-border-color: var(--bs-border-color)
+}
+
+.dark .multiselect-tags-search {
+  color: inherit;
+  background: inherit;
+}
+.ql-container {
+  height: calc(100% - 5rem) !important;
+}
+.ql-container {
+  height: calc(100% - 5rem) !important;
+}
