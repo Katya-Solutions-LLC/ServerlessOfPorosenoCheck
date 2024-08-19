@@ -50,7 +50,7 @@
         "moment": "^2.29.4",
         "node-snackbar": "^0.1.16",
         "pinia": "^2.0.35",
-        "quill": "^2.0.0",
+        "quill": "^2.0.1",
         "sweetalert2": "^11.12.4",
         "vee-validate": "^4.5.8",
         "vue-flatpickr-component": "^11.0.3",
