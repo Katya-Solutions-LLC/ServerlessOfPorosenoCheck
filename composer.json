@@ -26,7 +26,7 @@
         "maatwebsite/excel": "^3.1",
         "mews/purifier": "^3.3",
         "nasirkhan/module-manager": "^0.4.0",
-        "nwidart/laravel-modules": "^9.0",
+        "nwidart/laravel-modules": "^11.0",
         "orangehill/iseed": "^3.0",
         "predis/predis": "^2.2",
         "razorpay/razorpay": "2.*",
