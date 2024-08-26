@@ -15,7 +15,7 @@
         "hashids/hashids": "^5.0",
         "laracasts/flash": "^3.2",
         "laravel-notification-channels/onesignal": "^2.5",
-        "laravel-notification-channels/webpush": "^7.1",
+        "laravel-notification-channels/webpush": "^9.0",
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/socialite": "^5.5",
