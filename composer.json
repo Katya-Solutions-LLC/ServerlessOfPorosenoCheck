@@ -12,7 +12,7 @@
         "alexusmai/laravel-file-manager": "^3.0",
         "arcanedev/log-viewer": "^9.0",
         "guzzlehttp/guzzle": "^7.4",
-        "hashids/hashids": "^4.1",
+        "hashids/hashids": "^5.0",
         "laracasts/flash": "^3.2",
         "laravel-notification-channels/onesignal": "^2.5",
         "laravel-notification-channels/webpush": "^7.1",
