@@ -51,7 +51,7 @@
         "node-snackbar": "^0.1.16",
         "pinia": "^2.0.35",
         "quill": "^2.0.2",
-        "sweetalert2": "^11.14.0",
+        "sweetalert2": "^11.14.1",
         "vee-validate": "^4.5.8",
         "vue-flatpickr-component": "^11.0.3",
         "vue-i18n": "^9.2.2",
