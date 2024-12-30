@@ -7238,12 +7238,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -7461,12 +7461,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -8996,12 +8996,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -9256,12 +9256,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -10653,13 +10653,13 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "3.x-dev"
-                },
                 "phpstan": {
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
@@ -11357,16 +11357,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.65.0",
+            "version": "v3.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "79d4f3e77b250a7d8043d76c6af8f0695e8a469f"
+                "reference": "5f5f2a142ff36b93c41885bca29cc5f861c013e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/79d4f3e77b250a7d8043d76c6af8f0695e8a469f",
-                "reference": "79d4f3e77b250a7d8043d76c6af8f0695e8a469f",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/5f5f2a142ff36b93c41885bca29cc5f861c013e6",
+                "reference": "5f5f2a142ff36b93c41885bca29cc5f861c013e6",
                 "shasum": ""
             },
             "require": {
@@ -11392,7 +11392,7 @@
                 "symfony/polyfill-mbstring": "^1.28",
                 "symfony/polyfill-php80": "^1.28",
                 "symfony/polyfill-php81": "^1.28",
-                "symfony/process": "^5.4 || ^6.0 || ^7.0",
+                "symfony/process": "^5.4 || ^6.0 || ^7.0 <7.2",
                 "symfony/stopwatch": "^5.4 || ^6.0 || ^7.0"
             },
             "require-dev": {
@@ -11448,7 +11448,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.65.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.66.0"
             },
             "funding": [
                 {
@@ -11456,7 +11456,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-25T00:39:24+00:00"
+            "time": "2024-12-29T13:46:23+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -14653,16 +14653,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v7.1.6",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "c835867b3c62bb05c7fe3d637c871c7ae52024d4"
+                "reference": "b8dce482de9d7c9fe2891155035a7248ab5c7fdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/c835867b3c62bb05c7fe3d637c871c7ae52024d4",
-                "reference": "c835867b3c62bb05c7fe3d637c871c7ae52024d4",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/b8dce482de9d7c9fe2891155035a7248ab5c7fdb",
+                "reference": "b8dce482de9d7c9fe2891155035a7248ab5c7fdb",
                 "shasum": ""
             },
             "require": {
@@ -14699,7 +14699,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v7.1.6"
+                "source": "https://github.com/symfony/filesystem/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -14715,20 +14715,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-25T15:11:02+00:00"
+            "time": "2024-10-25T15:15:23+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v7.1.6",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "85e95eeede2d41cd146146e98c9c81d9214cae85"
+                "reference": "7da8fbac9dcfef75ffc212235d76b2754ce0cf50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/85e95eeede2d41cd146146e98c9c81d9214cae85",
-                "reference": "85e95eeede2d41cd146146e98c9c81d9214cae85",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/7da8fbac9dcfef75ffc212235d76b2754ce0cf50",
+                "reference": "7da8fbac9dcfef75ffc212235d76b2754ce0cf50",
                 "shasum": ""
             },
             "require": {
@@ -14766,7 +14766,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v7.1.6"
+                "source": "https://github.com/symfony/options-resolver/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -14782,7 +14782,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-11-20T11:17:29+00:00"
         },
         {
             "name": "symfony/polyfill-php81",
@@ -14862,16 +14862,16 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v7.1.6",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "8b4a434e6e7faf6adedffb48783a5c75409a1a05"
+                "reference": "696f418b0d722a4225e1c3d95489d262971ca924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/8b4a434e6e7faf6adedffb48783a5c75409a1a05",
-                "reference": "8b4a434e6e7faf6adedffb48783a5c75409a1a05",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/696f418b0d722a4225e1c3d95489d262971ca924",
+                "reference": "696f418b0d722a4225e1c3d95489d262971ca924",
                 "shasum": ""
             },
             "require": {
@@ -14904,7 +14904,7 @@
             "description": "Provides a way to profile code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/stopwatch/tree/v7.1.6"
+                "source": "https://github.com/symfony/stopwatch/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -14920,7 +14920,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/yaml",
