@@ -19,7 +19,7 @@
         "@intlify/vue-i18n-loader": "^5.0.0",
         "@popperjs/core": "^2.11.6",
         "autoprefixer": "^10.4.13",
-        "axios": "^1.7.4",
+        "axios": "^1.8.2",
         "bootstrap": "^5.2.3",
         "husky": "^4.3.8",
         "jquery": "^3.6.1",
